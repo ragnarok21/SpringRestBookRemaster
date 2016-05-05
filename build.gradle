@@ -13,16 +13,12 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse-wtp'
+apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 
-apply plugin: 'war'
+apply plugin: 'idea'
 
 defaultTasks 'clean', 'test','bootRun'
 
-war {
-	baseName = 'nisum'
-	version = '0.0.1-SNAPSHOT'
-}
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
@@ -57,3 +53,4 @@ eclipse {
 		 containers 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7'
 	}
 }
+apply plugin: 'idea'

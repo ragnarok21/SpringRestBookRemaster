@@ -51,3 +51,15 @@ market application of Chrome.
       
 ## Run the project
  For run the project, write the command "gradle bootRun" in the terminal.
+ 
+## Issues to import project in Eclipse or Intellij
+ 
+ If you can't import the project , before you need run the next command in the project directory
+ 
+ *Eclipse Case:
+      
+      gradle eclipse
+      
+ *Intellij Case:
+ 
+      gradle idea
