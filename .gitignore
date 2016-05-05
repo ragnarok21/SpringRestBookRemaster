@@ -1,0 +1,14 @@
+#Untracked files
+.project
+.classpath
+.gradle/
+!build.gradle
+!setting.gradle
+.settings/
+bin/
+build/
+*.class
+*.iml
+.idea/
+*.ipr
+*.iws
